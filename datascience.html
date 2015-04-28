@@ -1014,8 +1014,68 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>datascience</title></head><body><article class="markdown-body"><p>By <strong>Victor</strong></p>
-<h1 id="useful-resources"><a name="user-content-useful-resources" href="#useful-resources" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Useful resources</h1>
+</style><title>datascience</title></head><body><article class="markdown-body"><p><strong>Guide to Data Science</strong><br />
+By <strong>Victor Ma</strong></p>
+<p><img alt="Data science" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Giraffe_Ithala_KZN_South_Africa_Luca_Galuzzi_2004.JPG" /></p>
+<p>A practical reference guide to applied data science with my own commentary and summaries.</p>
+<p>The structure this guide attempts to follow for each major topic:</p>
+<ul>
+<li>Summary</li>
+<li>Instructions</li>
+<li>Commentary</li>
+<li>Examples</li>
+<li>Tools and resources, e.g. packages, modules</li>
+<li>FAQ</li>
+<li>References and learning resources</li>
+</ul>
+<h1 id="table-of-contents"><a name="user-content-table-of-contents" href="#table-of-contents" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Table of Contents</h1>
+<!-- MarkdownTOC depth=2 -->
+
+<ul>
+<li><a href="#programming">Programming</a><ul>
+<li><a href="#r">R</a></li>
+<li><a href="#python">Python</a></li>
+<li><a href="#java">Java</a></li>
+</ul>
+</li>
+<li><a href="#learning-resources">Learning Resources</a></li>
+<li><a href="#pre-processing">Pre-processing</a><ul>
+<li><a href="#data-collection-and-ingestion">Data collection and ingestion</a></li>
+<li><a href="#data-munging-cleaning-preparing">Data munging, cleaning, preparing</a></li>
+<li><a href="#feature-and-data-transformation">Feature and data transformation</a></li>
+<li><a href="#feature-selection-and-engineering">Feature selection and engineering</a></li>
+<li><a href="#imbalanced-data">Imbalanced data</a></li>
+</ul>
+</li>
+<li><a href="#exploratory-analysis">Exploratory analysis</a><ul>
+<li><a href="#high-level">High-level</a></li>
+<li><a href="#manual-inspection">Manual inspection</a></li>
+</ul>
+</li>
+<li><a href="#unsupervised-learning">Unsupervised learning</a><ul>
+<li><a href="#clustering">Clustering</a></li>
+<li><a href="#association-rules-mining">Association rules mining</a></li>
+<li><a href="#anomaly-detection">Anomaly detection</a></li>
+</ul>
+</li>
+<li><a href="#supervised-learning-classification-and-regression">Supervised learning: classification and regression</a></li>
+<li><a href="#reinforcement-learning">Reinforcement learning</a></li>
+<li><a href="#meta-methods-and-algorithms">Meta methods and algorithms</a></li>
+<li><a href="#time-series-analysis">Time series analysis</a></li>
+<li><a href="#text-mining-and-nlp">Text mining and NLP</a></li>
+<li><a href="#network-analysis">Network analysis</a></li>
+<li><a href="#visualization">Visualization</a></li>
+<li><a href="#optimization">Optimization</a></li>
+<li><a href="#statistics">Statistics</a></li>
+<li><a href="#big-data">Big Data</a></li>
+<li><a href="#learning-theory">Learning theory</a></li>
+<li><a href="#mathematics-fundamentals">Mathematics fundamentals</a></li>
+<li><a href="#computer-science-fundamentals">Computer science fundamentals</a></li>
+<li><a href="#simulation">Simulation</a></li>
+</ul>
+<!-- /MarkdownTOC -->
+
+<h1 id="programming"><a name="user-content-programming" href="#programming" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Programming</h1>
 <h2 id="r"><a name="user-content-r" href="#r" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>R</h2>
 <ul>
 <li><a href="http://www.rstudio.com/">RStudio</a>: popular IDE for R</li>
@@ -1023,14 +1083,16 @@ body .markdown-body
 <li><a href="https://topepo.github.io/caret/index.html">caret</a>: library with supporting functions for machine learning</li>
 <li><a href="http://ggplot2.org/">ggplot2</a>: visualization library based on the grammar of graphics</li>
 <li><a href="http://goo.gl/87ZM57">dplyr</a>: library for manipulating data frames</li>
-<li><a href="http://goo.gl/87ZM57">tidyr</a>: library for tidying up messy data</li>
+<li><a href="http://goo.gl/87ZM57">tidyr</a>: library for cleaning up messy data</li>
+<li><a href="http://onepager.togaware.com/">Hands-on Data Science with R</a>: An excellent, fairly comprehensive set of tutorials for doing data science using R. </li>
 </ul>
 <h2 id="python"><a name="user-content-python" href="#python" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Python</h2>
 <ul>
 <li><a href="http://scikit-learn.org/stable/index.html">Scikit</a>: popular machine learning library with great documentation</li>
 <li><a href="www.numpy.org/">Numpy</a>, <a href="www.scipy.org">Scipy</a>, and <a href="http://matplotlib.org/">Matplotlib</a>: popular packages for scientific computing and visualization</li>
+<li><a href="www.nltk.org">NLTK</a>: Natural langue processing and text mining platform.</li>
 <li><a href="http://pandas.pydata.org/">Pandas</a> for data frames</li>
-<li>[IPython] (<a href="http://ipython.org/):">http://ipython.org/):</a> Python interpreter with lots of nifty features, including <a href="http://goo.gl/dY3RQ">IPython Notebook</a></li>
+<li>[IPython] (<a href="http://ipython.org/):">http://ipython.org/):</a> Python interpreter with lots of nifty features, including <a href="http://goo.gl/dY3RQ">IPython Notebook</a> </li>
 <li><a href="https://github.com/spyder-ide/spyder">Spyder</a>: IDE for scientific computing in Python</li>
 <li><a href="https://www.jetbrains.com/pycharm/">Pycharm</a>: General purpose Python IDE</li>
 <li><a href="https://www.sublimetext.com/">Sublime Text</a>: General purpose text editor, commonly used for programming and development</li>
@@ -1040,22 +1102,25 @@ body .markdown-body
 <li><a href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a></li>
 <li><a href="https://github.com/pushkar/ABAGAIL">ABAGAIL</a></li>
 </ul>
-<h2 id="reading"><a name="user-content-reading" href="#reading" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Reading</h2>
+<h1 id="learning-resources"><a name="user-content-learning-resources" href="#learning-resources" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Learning Resources</h1>
 <ul>
 <li><a href="http://goo.gl/G5vggo">Booz Allen Hamilton Field Guide to Data Science</a></li>
 <li><a href="http://onepager.togaware.com/">Hands-on Data Science with Togaware</a></li>
 <li><a href="https://www.coursera.org/course/ml">Coursera machine learning course by Andrew Ng</a></li>
 <li><a href="https://www.cs.cmu.edu/~tom/mlbook.html">“Machine learning” by Tom Mitchell</a></li>
 <li><a href="http://statweb.stanford.edu/~tibs/ElemStatLearn/">&ldquo;The elements of statistical learning&rdquo; by Hastie, Tibshirani, and Friedman</a></li>
+<li><a href="http://nirvacana.com/thoughts/becoming-a-data-scientist/">Becoming a Data Scientist - Curriculum via Metromap</a></li>
+<li><a href="http://www.datasciencecentral.com/">Data Science Central</a></li>
+<li><a href="www.nltk.org/book/">Natural Language Processing with Python</a></li>
+<li>Coursera, Udacity, EdX (specific courses??)</li>
 </ul>
 <h1 id="pre-processing"><a name="user-content-pre-processing" href="#pre-processing" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Pre-processing</h1>
-<h2 id="data-munging"><a name="user-content-data-munging" href="#data-munging" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Data munging</h2>
-<p>Put data in a usable format, e.g. table or data frame</p>
-<h2 id="data-cleaning"><a name="user-content-data-cleaning" href="#data-cleaning" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Data cleaning</h2>
+<h2 id="data-collection-and-ingestion"><a name="user-content-data-collection-and-ingestion" href="#data-collection-and-ingestion" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Data collection and ingestion</h2>
+<h2 id="data-munging-cleaning-preparing"><a name="user-content-data-munging-cleaning-preparing" href="#data-munging-cleaning-preparing" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Data munging, cleaning, preparing</h2>
 <ul>
 <li>Normalize variable names</li>
 <li>Select candidate features</li>
-<li>Correct data formats, i.e. numeric, categorical</li>
+<li>Data formats: i.e. numeric, categorical</li>
 <li>Ignore IDs, outputs</li>
 <li>Ignore features which are constant, all missing, or mostly missing</li>
 <li>Ignore observations which are all or mostly missing</li>
@@ -1078,7 +1143,14 @@ body .markdown-body
 <li>Clustering</li>
 <li>Expansions, e.g. x*y, x/y, xˆ2, ax+by, etc.</li>
 <li>Tidy or reshape data so that we have one measurement per observation</li>
+<li>Sampling</li>
+<li>Stratified sampling</li>
 </ul>
+<h2 id="feature-selection-and-engineering"><a name="user-content-feature-selection-and-engineering" href="#feature-selection-and-engineering" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Feature selection and engineering</h2>
+<p>Parse and transform raw data into features that better capture the structure of the problem so that it&rsquo;s more suitable for machine learning models. That is,<br />
+we have improved predictive power.</p>
+<p><a href="http://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/">http://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-features-and-how-to-get-good-at-it/</a></p>
+<h2 id="imbalanced-data"><a name="user-content-imbalanced-data" href="#imbalanced-data" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Imbalanced data</h2>
 <h1 id="exploratory-analysis"><a name="user-content-exploratory-analysis" href="#exploratory-analysis" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Exploratory analysis</h1>
 <h2 id="high-level"><a name="user-content-high-level" href="#high-level" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>High-level</h2>
 <ul>
@@ -1100,21 +1172,13 @@ body .markdown-body
 </ul>
 </li>
 </ul>
-<h1 id="descriptive-analytics"><a name="user-content-descriptive-analytics" href="#descriptive-analytics" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Descriptive analytics</h1>
+<h1 id="unsupervised-learning"><a name="user-content-unsupervised-learning" href="#unsupervised-learning" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Unsupervised learning</h1>
 <h2 id="clustering"><a name="user-content-clustering" href="#clustering" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Clustering</h2>
-<h3 id="two-questions"><a name="user-content-two-questions" href="#two-questions" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Two questions</h3>
-<ol>
-<li>What clustering helps us distinguish between real and fake hotels?</li>
-<li>What clustering helps us distinguish between different activities, in general?</li>
-<li>How to deal with missing or categorical data?</li>
-</ol>
 <h3 id="set-up"><a name="user-content-set-up" href="#set-up" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Set-up</h3>
 <ul>
 <li>Choose distance metric, e.g. Euclidean or Manhattan (or more generally L-norm), Mahalanobis, Minkowski</li>
 <li>Scale, standardize, or normalize as necessary</li>
-<li>
-<h2 id="establish-a-base-case-1-cluster"><a name="user-content-establish-a-base-case-1-cluster" href="#establish-a-base-case-1-cluster" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Establish a base case (1 cluster)</h2>
-</li>
+<li>Establish a base case (e.g., 1 cluster)</li>
 </ul>
 <h3 id="methods"><a name="user-content-methods" href="#methods" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Methods</h3>
 <ul>
@@ -1125,7 +1189,8 @@ body .markdown-body
 <li><em>clusterCrit package has 40 clustering criteria</em></li>
 </ul>
 </li>
-<li>K-means with random restarts<ul>
+<li>K-means<ul>
+<li>With random restarts</li>
 <li>Entropy weighted k-means?? <em>ewkm() in wskm package for R</em></li>
 <li>Subspace clustering??</li>
 <li>Bicluster analysis??</li>
@@ -1166,17 +1231,134 @@ body .markdown-body
 </ul>
 </li>
 <li>Learner performance (regression, classification, etc.)</li>
+<li><em>clusterCrit pacakge has 40 clustering criteria</em></li>
 </ul>
 </li>
 </ul>
-<h2 id="association-analysis"><a name="user-content-association-analysis" href="#association-analysis" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Association analysis</h2>
+<h2 id="association-rules-mining"><a name="user-content-association-rules-mining" href="#association-rules-mining" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Association rules mining</h2>
 <h2 id="anomaly-detection"><a name="user-content-anomaly-detection" href="#anomaly-detection" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anomaly detection</h2>
-<h1 id="predictive-analytics"><a name="user-content-predictive-analytics" href="#predictive-analytics" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Predictive analytics</h1>
-<h2 id="anomaly-detection_1"><a name="user-content-anomaly-detection_1" href="#anomaly-detection_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Anomaly detection</h2>
-<h2 id="svm"><a name="user-content-svm" href="#svm" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>SVM</h2>
-<h2 id="logistic-regression"><a name="user-content-logistic-regression" href="#logistic-regression" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Logistic regression</h2>
-<h2 id="naive-bayes"><a name="user-content-naive-bayes" href="#naive-bayes" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Naive Bayes</h2>
-<h2 id="neural-network"><a name="user-content-neural-network" href="#neural-network" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Neural network</h2>
-<h2 id="decision-trees"><a name="user-content-decision-trees" href="#decision-trees" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Decision trees</h2>
-<h2 id="random-forest"><a name="user-content-random-forest" href="#random-forest" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Random forest</h2>
-<h2 id="ensemble-methods"><a name="user-content-ensemble-methods" href="#ensemble-methods" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Ensemble methods</h2></article></body></html>
+<h1 id="supervised-learning-classification-and-regression"><a name="user-content-supervised-learning-classification-and-regression" href="#supervised-learning-classification-and-regression" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Supervised learning: classification and regression</h1>
+<ul>
+<li>Anomaly detection</li>
+<li>SVM</li>
+<li>Generalized linear models (logistic regression)</li>
+<li>Naive Bayes</li>
+<li>Perceptron</li>
+<li>Neural network</li>
+<li>Decision trees</li>
+<li>Random forest</li>
+<li>Gradient boosting machine</li>
+<li>General linear models (linear regression)</li>
+<li>Ranking</li>
+<li>Collaborative filtering</li>
+</ul>
+<h1 id="reinforcement-learning"><a name="user-content-reinforcement-learning" href="#reinforcement-learning" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Reinforcement learning</h1>
+<ul>
+<li>Markov decision processes</li>
+<li>Value iteration</li>
+<li>Policy iteration</li>
+<li>Q-learning</li>
+<li>SARSA</li>
+<li>TD learning</li>
+<li>Game theory</li>
+</ul>
+<h1 id="meta-methods-and-algorithms"><a name="user-content-meta-methods-and-algorithms" href="#meta-methods-and-algorithms" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Meta methods and algorithms</h1>
+<ul>
+<li>Bagging (bootstrap aggregating)</li>
+<li>Boosting</li>
+<li>Blending (stacking, stacked aggregation)</li>
+<li>Ensemble learning</li>
+</ul>
+<h1 id="time-series-analysis"><a name="user-content-time-series-analysis" href="#time-series-analysis" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Time series analysis</h1>
+<ul>
+<li>Forecasting</li>
+<li>Breakout, change analysis</li>
+<li>Anomaly detection</li>
+</ul>
+<h1 id="text-mining-and-nlp"><a name="user-content-text-mining-and-nlp" href="#text-mining-and-nlp" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Text mining and NLP</h1>
+<ul>
+<li>Viterbi algorithm</li>
+<li>TF-IDF</li>
+<li>Latent dirichlet allocation (LDA)</li>
+<li>Latent semantic indexing/analysis (LSI/A)</li>
+<li>Viterbi algorithm</li>
+<li>Baum-Welch algorithm</li>
+<li>Named entity recognition</li>
+<li>WordNet</li>
+<li>Term-document matrix (thesis on matrix based methods)</li>
+<li>Sentiment analysis</li>
+</ul>
+<h1 id="network-analysis"><a name="user-content-network-analysis" href="#network-analysis" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Network analysis</h1>
+<h1 id="visualization"><a name="user-content-visualization" href="#visualization" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Visualization</h1>
+<ul>
+<li>Univariate, bivariate, multivariate</li>
+<li>Data exploration</li>
+<li>Scatter plots</li>
+<li>Spatial charts</li>
+<li>3D charts</li>
+<li>interactive visualization</li>
+<li>d3.js, plot.ly, Shiny, ggplot, matplotlib</li>
+</ul>
+<h1 id="optimization"><a name="user-content-optimization" href="#optimization" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Optimization</h1>
+<ul>
+<li>Randomized hill climbing</li>
+<li>Simulated annealing</li>
+<li>Genetic algorithms</li>
+<li>Gradient descent</li>
+<li>Newton-Raphson method</li>
+<li>Broyden-Fletcher-Goldfarb-Shanno (BFGS) algorithm</li>
+<li>Simplex algorithm</li>
+<li>Linear programming</li>
+<li>Nonlinear programming</li>
+<li>Dynamic programming</li>
+<li>Convex and nonconvex optimization</li>
+</ul>
+<h1 id="statistics"><a name="user-content-statistics" href="#statistics" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Statistics</h1>
+<ul>
+<li>Basic descriptive statistics</li>
+<li>ANOVA</li>
+<li>Bayes Theorem</li>
+<li>Histograms</li>
+<li>Skewness</li>
+<li>Moments</li>
+<li>Continuous distributions</li>
+<li>Discrete distributions</li>
+<li>Probability theory</li>
+<li>Central limit theorem</li>
+<li>Statistical significance, p-value, chi square</li>
+<li>MLE and MAP estimates</li>
+<li>Hypothesis testing</li>
+<li>Monte carlo method</li>
+<li>Kernel density estimation</li>
+<li>Correlation: Pearson, etc.</li>
+<li>Causation</li>
+<li>Causal analysis</li>
+</ul>
+<h1 id="big-data"><a name="user-content-big-data" href="#big-data" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Big Data</h1>
+<ul>
+<li>Map Reduce</li>
+<li>Hadoop and HDFS</li>
+<li>Hive</li>
+<li>Apache Spark</li>
+<li>Memory efficient approaches</li>
+</ul>
+<h1 id="learning-theory"><a name="user-content-learning-theory" href="#learning-theory" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Learning theory</h1>
+<ul>
+<li>Bias-variance trade-off</li>
+<li>Overfitting</li>
+<li>Lift</li>
+<li>VC dimensions</li>
+<li>PAC learning</li>
+</ul>
+<h1 id="mathematics-fundamentals"><a name="user-content-mathematics-fundamentals" href="#mathematics-fundamentals" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Mathematics fundamentals</h1>
+<ul>
+<li>Linear algebra</li>
+<li>Calculus</li>
+</ul>
+<h1 id="computer-science-fundamentals"><a name="user-content-computer-science-fundamentals" href="#computer-science-fundamentals" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Computer science fundamentals</h1>
+<ul>
+<li>Hash functions</li>
+<li>Complexity</li>
+<li>Algorithms</li>
+</ul>
+<h1 id="simulation"><a name="user-content-simulation" href="#simulation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Simulation</h1></article></body></html>
