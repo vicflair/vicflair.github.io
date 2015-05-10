@@ -22,6 +22,7 @@ Based on my experience learning French, German, and Dutch.
 - [Verbling](www.verbling.com)
 - [Omniglot](www.omniglot.com)
 - [Learn Any Language](http://learnanylanguage.wikia.com/)
+- [Wiktionary](www.wiktionary.org)
 
 ### French specific
 - [French.About.com](french.about.com)
