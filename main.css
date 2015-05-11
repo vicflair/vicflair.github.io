@@ -1,0 +1,120 @@
+/*
+
+Some stuff taken from: "Smashing HTML5" by:
+
+    Author: Enrique Ramírez
+    Autor URI: http://enrique-ramirez.com
+
+*/
+
+@import url("reset.css");
+
+/***** Global *****/
+/* Body */
+body {
+    background: url('sativa.png') repeat 0 0 scroll;
+    color: #222222; /* #472711; */
+    font-size: 87.5%; /* Base font size: 14px */
+    font-family: 'Open Sans','Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+/* Headings */
+h1 {font-size: 2em; margin: .8em; text-shadow: 1px 1px 0 #fff; }
+h2 {font-size: 1.571em} /* 22px */
+h3 {font-size: 1.429em} /* 20px */
+h4 {font-size: 1.286em} /* 18px */
+h5 {font-size: 1.143em} /* 16px */
+h6 {font-size: 1em}     /* 14px */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: .8em;
+}
+
+h3, h4, h5, h6 { margin-top: .8em; }
+
+hr { border: 2px solid #eee; }
+
+h1 strong {
+    color: #FF6600; /* 7f3300; */
+}
+
+/* Anchors */
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+a:link, a:visited {
+    color: #777; /* #1c5209; */
+    padding: 0 1px;
+    text-decoration: none;
+}
+
+
+/* Paragraphs */
+p {margin-bottom: 1.143em;}
+
+strong {font-weight: 700;}
+
+/* Main content layout */
+
+.home {
+    padding: 1em;
+    margin: auto;
+    max-width: 70em;
+}
+
+#contentinfo {
+    margin-top: 3em;
+}
+
+/* Powered by Footer */
+#about {
+    color: #777;
+}
+
+/* Helpers */
+.light {
+    font-weight: 300;
+}
+
+/* Home page */
+
+.info-block {
+    margin: 1em;
+    padding: 1em;
+    float: left;
+    width: 27%;
+    min-width: 18em;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.info-block ul {
+    margin-bottom: 1.27em;
+}
+
+.info-block li {
+    margin-bottom: .5em;
+}
+
+.event-name {
+    font-weight: bold;
+}
+
+.event-date {
+    color: #999;
+    margin-bottom: .3em;
+}
+
+#availability-info h2 {
+    margin-bottom: 0;
+    color: black;
+}
+
+.availability {
+    color: #2ab300;
+}
