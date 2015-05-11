@@ -48,7 +48,7 @@ h1 strong {
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
-    color: #777; /* #1c5209; */
+    color: #000066; /* #1c5209; */
     padding: 0 1px;
     text-decoration: none;
 }
