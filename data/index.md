@@ -87,6 +87,7 @@ The structure this guide attempts to follow for each major topic:
 - [Becoming a Data Scientist - Curriculum via Metromap](http://nirvacana.com/thoughts/becoming-a-data-scientist/)
 - [Data Science Central](http://www.datasciencecentral.com/)
 - [Natural Language Processing with Python](www.nltk.org/book/)
+- [Data science IPython Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
 - Coursera, Udacity, EdX (specific courses??)
 
 # Pre-processing
@@ -240,6 +241,8 @@ http://machinelearningmastery.com/discover-feature-engineering-how-to-engineer-f
 - WordNet
 - Term-document matrix (thesis on matrix based methods)
 - Sentiment analysis
+- Vowpal Wabbit
+- NLTK
 
 # Network analysis
 
