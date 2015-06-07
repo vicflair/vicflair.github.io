@@ -8,6 +8,7 @@ Based on my experience learning (to various levels) French, German, Dutch, Itali
 ## Web resources
 - [Google Translate](https://translate.google.com): Probably the most well-known, and more or less effective, automatic translation tool. Available on the web or on your phone (with downloadable language packs for offline use). 
 - [Duolingo](http://www.duolingo.com): Practice translating, listening, and even speaking (still a little rough) in a game.
+- [Mondley](http://www.mondlylanguages.com): Another language learning game site. Integrates nice audio and visuals.
 - [Memrise](http://www.memrise.com): Create your own or use others' flashcard decks. Learn using a spaced repetition system (SRS), audio, and helpful mnemonics. Great for vocabulary!
 - [BliuBliu](http://www.bliubliu.com): Learn using foreign language videos, text, stories at your level.
 - [Lingua.ly](https://lingua.ly): Learn new words using snippets of news and magazines. You can even add words to learn from any internet page using a browser extension.
