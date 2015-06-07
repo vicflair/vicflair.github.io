@@ -88,6 +88,7 @@ The structure this guide attempts to follow for each major topic:
 - [Data Science Central](http://www.datasciencecentral.com/)
 - [Natural Language Processing with Python](www.nltk.org/book/)
 - [Data science IPython Notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
+- [IPython and Jupyter Notebook gallery](http://nb.bianp.net/)
 - Coursera, Udacity, EdX (specific courses??)
 
 # Pre-processing
