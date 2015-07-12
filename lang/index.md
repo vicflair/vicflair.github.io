@@ -4,6 +4,7 @@ Based on my experience learning (to various levels) French, German, Dutch, Itali
 ## Some guides
 - [LifeHacker - "I Learned to Speak Four Languages in a Few Years: Here's How"](http://goo.gl/CILJM)
 - [Learn Any Language - "10000 sentences"](http://goo.gl/4Nqbs1)
+- [4 Hour Work Week - "12 Rules for Learning Foreign Languages in Record Time"](http://goo.gl/F7M69g)
 
 ## Web resources
 - [Google Translate](https://translate.google.com): Probably the most well-known, and more or less effective, automatic translation tool. Available on the web or on your phone (with downloadable language packs for offline use). 
