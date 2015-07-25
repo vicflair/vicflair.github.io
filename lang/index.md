@@ -17,6 +17,7 @@ Based on my experience learning (to various levels) French, German, Dutch, Itali
 - [Forvo](http://www.forvo.com): An "audio dictionary" so you can hear how words sound like as spoken by native speakers.
 - [Lang-8](http://www.lang-8.com): A language exchange and social network where you correct texts written by people learning your native language, and native speakers correct your texts written in their language.
 - [Linguee](http://www.linguee.com): An online multi-language dictionary which not only shows you definitions, but also text snippets from the web so you can understand the context for word or phrase usage.
+- [Bab.la](http://bab.la): Another great site like Linguee.
 - [LingQ](http://www.lingq.com): A vocabulary building website that allows you to choose words to focus on learning. Unfortunately, most good features are not free.
 - [Wiki: international phonetic alphabet](https://goo.gl/y86e3p): The Wikipedia entry on the international phonetic alphabet (IPA). Useful reference for learning a system to master pronunciation and improve your own listening abilities.
 - [Fluent in 3 months](http://www.fluentin3months.com): Benny Lewis' site where he documents his own language learning experiences and provides advice to others who want to do the same. I think he has a very fun, positive, and practical attitude towards foreign languages.
